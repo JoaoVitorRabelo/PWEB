@@ -40,7 +40,7 @@ div{
         background-color: magenta;
     }
     h1:after{
-        content: '1024px':
+        content: '1024px';
     }
     h2:after{
         content: 'magenta';

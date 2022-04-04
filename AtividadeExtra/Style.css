@@ -7,7 +7,10 @@ div{
         background-color: yellow;
     }
     h1:after{
-        content: '1920px: amarelo';
+        content: '1920px';
+    }
+    h2:after{
+        content: 'amarelo';
     }
 }
 @media screen and (max-width: 1366px){
@@ -15,7 +18,10 @@ div{
         background-color: purple;
     }
     h1:after{
-        content: '1366px: roxo';
+        content: '1366px';
+    }
+    h2:after{
+        content: 'roxo';
     }
 }
 @media screen and (max-width: 1080px){
@@ -23,7 +29,10 @@ div{
         background-color: red;
     }
     h1:after{
-        content: '1080px: vermelho';
+        content: '1080px';
+    }
+    h2:after{
+        content: 'vermelho';
     }
 }
 @media screen and (max-width: 1024px){
@@ -31,7 +40,10 @@ div{
         background-color: magenta;
     }
     h1:after{
-        content: '1024px: magenta';
+        content: '1024px':
+    }
+    h2:after{
+        content: 'magenta';
     }
 }
 @media screen and (max-width: 768px){
@@ -39,7 +51,10 @@ div{
         background-color: orange;
     }
     h1:after{
-        content: '768px: laranja';
+        content: '768px';
+    }
+    h2:after{
+        content: 'laranja';
     }
 }
 @media screen and (max-width: 420px){
@@ -47,6 +62,9 @@ div{
         background-color: gray;
     }
     h1:after{
-        content: '420px: cinza';
+        content: '420px';
+    }
+    h2:after{
+        content: 'cinza';
     }
 }

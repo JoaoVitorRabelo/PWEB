@@ -6,29 +6,47 @@ div{
     div{
         background-color: yellow;
     }
+    h1:after{
+        content: '1920px: amarelo';
+    }
 }
 @media screen and (max-width: 1366px){
     div{
         background-color: purple;
+    }
+    h1:after{
+        content: '1366px: roxo';
     }
 }
 @media screen and (max-width: 1080px){
     div{
         background-color: red;
     }
+    h1:after{
+        content: '1080px: vermelho';
+    }
 }
 @media screen and (max-width: 1024px){
     div{
         background-color: magenta;
+    }
+    h1:after{
+        content: '1024px: magenta';
     }
 }
 @media screen and (max-width: 768px){
     div{
         background-color: orange;
     }
+    h1:after{
+        content: '768px: laranja';
+    }
 }
 @media screen and (max-width: 420px){
     div{
         background-color: gray;
+    }
+    h1:after{
+        content: '420px: cinza';
     }
 }

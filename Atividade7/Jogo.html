@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="2">
+                <h1>Pedra, Papel e Tesoura</h1>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="playPoints">Jogador</label><br>
+                <p id="playPoints">--</p>
+            </td>
+            <td>
+                <label for="compPoints">Computador</label><br>
+                <p id="compPoints">--</p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <select name="Jogada"id="opcao">
+                    <option value=""> -- Escolha a opção -- </option>
+                    <option value="Pedra">Pedra</option>
+                    <option value="Papel">Papel</option>
+                    <option value="Tesoura">Tesoura</option>
+                </select>
+                <input type="button" onclick="myFunction()" value="Jogar" id="sub">
+            </td>
+        </tr>
+        <tr class="bg1">
+            <td>Player</td>
+            <td>Computador</td>
+        </tr>
+        <tr>
+            <td id="player">
+                --
+            </td>
+            <td id="computer">
+                --
+            </td>
+        </tr>
+        <tr>
+            <td class="bg1">
+                Vencedor
+            </td>
+            <td class="bg2" id="winner">
+                --
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

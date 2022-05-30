@@ -1,0 +1,10 @@
+section{
+    width: 400px;
+    text-align:center;
+    margin: auto;
+}
+select{
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 0;
+}

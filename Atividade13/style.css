@@ -1,0 +1,9 @@
+section{
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
+#texto {
+  width: 100%;
+  height: 25px;
+}
